@@ -1,2 +1,27 @@
 ABSTRACTION:
             .Showing only essential details to the user and hinding  implementation details.
+            .Abstraction can be achieved in 2 ways:
+                                                1. using header files
+                                                2.using classes
+
+
+
+
+
+
+
+
+                                                        //1.ABSTRACTION USING HEADER FILES
+
+#include <iostream>
+#include<math.h>
+using namespace std;
+
+int main() {
+   int n,ex;
+   cout<<"Enter base and exponent:"<<endl;
+   cin>>n>>ex;
+   int res=pow(n,ex);
+   cout<<"Result :"<<res<<endl;
+    return 0;
+}
